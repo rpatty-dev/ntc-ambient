@@ -2,7 +2,7 @@
   <img src="logo.png" alt="ntc-ambient" width="640">
 </p>
 
-# ntc-livestock
+# ntc-ambient
 
 Cows on the back roads. A free, standalone FiveM resource that puts a herd of livestock across quiet country roads. Slow down, sound the horn, and they scatter.
 
@@ -27,11 +27,11 @@ No framework, no database, no dependencies. Works on ESX, QBCore, Qbox or a bare
 
 ## Install
 
-1. Download or clone this repository into your `resources` folder as `ntc-livestock`.
+1. Download or clone this repository into your `resources` folder as `ntc-ambient`.
 2. Add to `server.cfg`:
 
    ```cfg
-   ensure ntc-livestock
+   ensure ntc-ambient
    ```
 
 3. Optional, to use the test command:
@@ -40,7 +40,7 @@ No framework, no database, no dependencies. Works on ESX, QBCore, Qbox or a bare
    add_ace group.admin command.livestock allow
    ```
 
-4. Restart the server, or run `refresh` then `ensure ntc-livestock` in the console.
+4. Restart the server, or run `refresh` then `ensure ntc-ambient` in the console.
 
 ## Test it
 
